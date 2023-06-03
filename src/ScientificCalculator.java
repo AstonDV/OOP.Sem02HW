@@ -9,5 +9,6 @@ public class ScientificCalculator extends Calculator {
 
     public double squareRoot() {
         return Math.sqrt(num1);
+
     }
 }
