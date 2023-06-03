@@ -1,6 +1,6 @@
 public class Calculator {
-    private double num1;
-    private double num2;
+    protected double num1;
+    protected double num2;
 
     public Calculator(double num1, double num2) {
         this.num1 = num1;
@@ -8,7 +8,7 @@ public class Calculator {
     }
 
     public double add() {
-        return num1 - num2;
+        return num1 + num2;
     }
 
     public double subtract() {
